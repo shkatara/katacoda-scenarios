@@ -4,7 +4,7 @@ In this quiz, you would download an image and create the container with the foll
 
 _1. Container should be based on image quay.io/shkatara-katacoda/nginx:latest
 
-_2. Container name should be mycustomcontainer{{execute}}.
+_2. Container name should be `mycustomcontainer`{{copy}}.
 
 _3. The container should be running in the background.
 
