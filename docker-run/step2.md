@@ -28,11 +28,11 @@ Once the container is running, make sure you are able to connect and see the rig
 
 _To see the IP of the container_, execute the following,
 
-`docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mynginx'{{execute}}
+`docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mynginx`{{execute}}
 
 Once the IP is availble, use the curl command to connect to it. 
 
-`curl $(docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mynginx)'{{execute}}
+`curl $(docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mynginx)`{{execute}}
 
 If you see The content saying:
 
