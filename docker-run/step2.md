@@ -14,3 +14,13 @@ Now the image will be pulled on your node which can be seen by looking at the im
 
 `docker images`{{execute}} 
 
+_Do not worry about the images which are already there._
+
+## Task: Run the container
+
+To run the container in the background so your terminal is not frozen by the process, run the following.
+
+`docker run -d --name mynginx docker.io/nginx:latest`
+
+
+
