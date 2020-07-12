@@ -7,7 +7,7 @@ _Containers are just processes on the host, and a process requires a binary or a
 ## Task: Downloading the image
 
 
-`docker pull docker.io/nginx`{{execute}}
+`docker pull quay.io/shkatara-katacoda/nginx`{{execute}}
 
 
 Now the image will be pulled on your node which can be seen by looking at the images downloaded locally on your node.
@@ -20,7 +20,7 @@ _Do not worry about the images which are already there._
 
 To run the container in the background so your terminal is not frozen by the process, run the following.
 
-`docker run -d --name mynginx docker.io/nginx:latest`{{execute}}
+`docker run -d --name mynginx quay.io/shkatara-katacoda/nginx`{{execute}}
 
 ## Verify the work:
 
