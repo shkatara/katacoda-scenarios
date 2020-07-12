@@ -20,7 +20,4 @@ _Do not worry about the images which are already there._
 
 To run the container in the background so your terminal is not frozen by the process, run the following.
 
-`docker run -d --name mynginx docker.io/nginx:latest`
-
-
-
+`docker run -d --name mynginx docker.io/nginx:latest`{{execute}}
