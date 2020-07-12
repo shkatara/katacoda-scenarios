@@ -1,12 +1,23 @@
-This is your first step.
+This is the quiz based on the first day of OpenShift 
 
-In this step, you would start working with how to find the right image. 
+In this quiz, you would download an image and create the container with the following characterstics.
 
-## Task: Find the image without any parameters.
+_1. Container should be based on image quay.io/shkatara-katacoda/nginx:latest
 
-This is an _example_ of searching a docker image on the public repository and running a **command**
+_2. Container name should be mycustomcontainer{{execute}}.
 
-`docker search docker.io/nginx`{{execute}}
+_3. The container should be running in the background.
 
-Using this, you would search on docker.io for the latest tagged nginx image. It does not have any filters and it will give any image from anybody. Probably not to use that in production as the images coming from this command can not really be trusted as they range from images which were just a one time upload and frequently supported images from the vendor. 
+_4. Find out the user inside the container and write that to /opt/user. You can just write the name of the user in all small letters.
 
+_5. Find the IP of the created container.
+
+_6. Connect to the container on port 80 and write the contents that you receive in /opt/output
+
+## Once the container is created,
+
+_1. `cat /opt/user`{{execute}}
+
+_2. `cat /opt/output`{{execute}}_
+
+IMPORTANT: As soon as you are done with the above, drop a + in the chat. The person who does them all and drops a + in the chat, wins ;)
