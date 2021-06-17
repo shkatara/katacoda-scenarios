@@ -12,7 +12,15 @@
 			{
 				"title": "Step 2",
 				"text": "step2.md"
-			}
+			},
+			 
+			  
+			{
+				"title": "Validation",
+				"text": "step3.md"
+				"couresData": "check-container.sh"
+			},
+			 
 
 		],
 		"intro": {
