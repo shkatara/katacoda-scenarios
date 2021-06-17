@@ -18,7 +18,8 @@
 			{
 				"title": "Validation",
 				"text": "step3.md",
-				"courseData": "check-container.sh"
+				"courseData": "check-container.sh",
+				"code": "output.sh"
 			}
 			 
 
